@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
     const LinkTextStyle = TextStyle(
       fontSize: 18,
       fontWeight: FontWeight.bold,
-      color: Color(0xFF007900),
+      color: Color(0xFF0079D0),
     );
       //)
     //)
