@@ -28,13 +28,20 @@ class MyApp extends StatelessWidget {
         // body: Center (
         //body: Padding (
         body: Container (
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("assets/pg2.jpg"),
+            fit: BoxFit.cover,)
+          ),
             width: double.infinity,
             //padding: EdgeInsets.symmetric(horizontal: 40),
             child: Column (children:[
-              SizedBox(height: 65,),
-              SizedBox(width: 110, height: 84, child: Placeholder (),),
+              SizedBox(height: 60,),
+              //SizedBox(width: 110, height: 84, child: Placeholder (),),
+              const SizedBox(width: 110, height: 84, child:
+              Image (image: AssetImage ("assets/logo.png")),),
               SizedBox(height: 20,),
-              Text("Введите логин в виде 10 цифр номера телефона",
+              const Text("Введите логин в виде 10 цифр номера телефона",
               style: TextStyle (fontSize: 16, color: Color.fromRGBO(0, 0, 0, 0.6)),),
               SizedBox(height: 20,),
               const SizedBox(width: 224,
